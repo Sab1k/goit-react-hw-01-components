@@ -1,0 +1,35 @@
+.list{
+    width: 180px;
+
+    background-color: rgb(151, 198, 151);
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #000;
+    
+    list-style: none;
+    margin: 0 0 20px;
+    padding: 15px;
+}
+.unit{
+    display: flex;
+    align-items: center;
+}
+.unit:not(:last-child){
+    margin-bottom: 5px;
+}
+.userStatus{
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-radius:50%;
+    margin-right: 10px;
+}
+.userPic{
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.307);
+    padding: 5px;
+}
+.userName{
+    margin: 0 0 0 auto ;
+    font-size: 22px;
+    font-weight: bold;
+}

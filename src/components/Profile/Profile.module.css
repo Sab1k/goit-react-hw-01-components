@@ -1,0 +1,46 @@
+.profile{
+    text-align: center;
+
+    background-color: rgb(250, 216, 216);
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #000;
+
+    width: 180px;
+    height: auto;
+
+    margin-bottom: 20px;
+    padding: 15px;
+    font-size: 16px;
+}
+
+.ava{
+    width: 100px;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.name{
+    font-weight: bold;
+}
+
+.usertag{
+    color: rgb(32, 32, 32);
+}
+
+.userLocation{
+    color: rgb(32, 32, 32);
+    font-style: italic;
+}
+
+.statsList{
+    display: flex;
+    padding: 0;
+
+    list-style: none;
+    color: rgb(32, 32, 32);
+}
+
+.quantity{
+    font-weight: bold;
+}

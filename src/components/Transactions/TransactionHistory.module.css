@@ -1,0 +1,23 @@
+.table{
+    display: block;
+    background-color: rgb(0, 0, 0);
+    box-shadow: 5px 5px 10px #000;
+        
+    font-size: 22px;
+}
+.tableHead{
+    background-color: #fff;
+    padding: 10px;
+}
+.tableRow{
+   background-color: rgb(218, 205, 228);
+}
+.itemType, .itemCurrency{
+padding: 10px;
+
+}
+.itemAmount{
+background-color: rgb(162, 156, 195);
+padding: 10px;
+}
+
